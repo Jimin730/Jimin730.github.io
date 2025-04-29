@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내 포트폴리오</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <!-- 네비게이션 -->
+    <nav>
+        <div class="logo">Jimin730</div>
+        <ul>
+            <li><a href="#home">홈</a></li>
+            <li><a href="#about">소개</a></li>
+            <li><a href="#skills">기술</a></li>
+            <li><a href="#projects">프로젝트</a></li>
+            <li><a href="#contact">연락처</a></li>
+        </ul>
+    </nav>
+
+    <!-- 홈 섹션 -->
+    <section id="home">
+        <div class="home-content">
+            <h1>안녕하세요, 저는 신지민입니다</h1>
+            <p>웹 백엔드 개발자</p>
+            <a href="#contact" class="btn">연락하기</a>
+        </div>
+    </section>
+
+    <!-- 소개 섹션 -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="profile.jpg" alt="프로필 사진">
+                <div class="about-text">
+                    <p>저는 열정적인 웹 개발자로, 혁신적인 솔루션을 만드는 것을 좋아합니다...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 기술 섹션 -->
+    <section id="skills">
+        <div class="container">
+            <h2>기술</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <i class="fab fa-html5"></i>
+                    <h3>JAVA</h3>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>SPRING</h3>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-js"></i>
+                    <h3>MYSQL</h3>
+                </div>
+                <!-- 추가 기술들 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 프로젝트 섹션 -->
+    <section id="projects">
+        <div class="container">
+            <h2>프로젝트</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <img src="project1.jpg" alt="프로젝트 1">
+                    <h3>프로젝트 제목</h3>
+                    <p>프로젝트 설명</p>
+                    <a href="#" class="btn">자세히 보기</a>
+                </div>
+                <!-- 추가 프로젝트들 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 연락처 섹션 -->
+    <section id="contact">
+        <div class="container">
+            <h2>연락처</h2>
+            <form>
+                <input type="text" placeholder="이름">
+                <input type="email" placeholder="이메일">
+                <textarea placeholder="메시지"></textarea>
+                <button type="submit" class="btn">보내기</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2025 Jimin730. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
